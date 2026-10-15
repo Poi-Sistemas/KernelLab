@@ -1,0 +1,42 @@
+# ============================================
+# KernelLab — arquivos ignorados pelo Git
+# ============================================
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Variáveis de ambiente
+.env
