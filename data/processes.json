@@ -1,0 +1,11 @@
+{
+  "quantum": 3,
+  "processes": [
+    {"pid": "P1", "funcao": "Monitoramento cardiaco", "chegada": 0, "burst": 8,  "prioridade": 1, "memoria_mb": 120, "dispositivos": ["rede"]},
+    {"pid": "P2", "funcao": "Transmissao de telemetria", "chegada": 1, "burst": 4,  "prioridade": 2, "memoria_mb": 80,  "dispositivos": ["rede"]},
+    {"pid": "P3", "funcao": "Geracao de relatorios", "chegada": 2, "burst": 9,  "prioridade": 4, "memoria_mb": 200, "dispositivos": ["disco"]},
+    {"pid": "P4", "funcao": "Emissao de alarme critico", "chegada": 3, "burst": 2,  "prioridade": 0, "memoria_mb": 60,  "dispositivos": ["audio", "rede"]},
+    {"pid": "P5", "funcao": "Backup do sistema", "chegada": 5, "burst": 12, "prioridade": 5, "memoria_mb": 300, "dispositivos": ["disco"]},
+    {"pid": "P6", "funcao": "Atualizacao de dados", "chegada": 6, "burst": 6,  "prioridade": 3, "memoria_mb": 150, "dispositivos": ["disco", "rede"]}
+  ]
+}
